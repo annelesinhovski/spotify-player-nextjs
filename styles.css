@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+  background: #161616;
+  color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+
+:root {
+  --cinza: #999999;
+  --cinza-claro: #fafafa;
+  --verde: #1bd05c;
+  --box-shadow: 0 0 3px 1px rgba(89, 89, 89, 0.4);
+}
+
+.container {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hide-desktop {
+    display: none;
+  }
+}
